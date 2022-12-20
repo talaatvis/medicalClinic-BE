@@ -1,0 +1,10 @@
+type Query {
+  patientDtoByEmail(email: String): PatientDto
+}
+
+type PatientDto {
+  email: String
+  name: String
+  contactNumber: String
+  address: String
+}
